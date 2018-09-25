@@ -1,0 +1,251 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+.container{
+	
+	/*top right bottom left*/
+	width: 1140px;
+	margin: 0 auto;	
+}
+
+
+#banner {
+    background-image: url("2.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    padding: 20px;
+    height: 100vh;
+}
+
+
+#navbar li {
+	display: inline-block;
+	float: right;
+}
+
+
+#navbar a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	font-weight: 400;
+	margin-right: 50px;
+}
+
+
+#navbar a:hover{
+	border-bottom: 2px solid white;
+}
+
+
+.hero h1 {
+	color: #fff;
+	font-size: 70px;
+	margin-left: 50px;
+	font-weight: 400;	
+}
+
+
+.hero p{
+	color: white;
+	font-size: 20px;
+	margin-left: 50px;
+	font-weight: 400;
+}
+
+
+.hero {
+	margin-top: 250px;
+}
+
+
+#logo{
+	float: left;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 50px;
+}
+
+
+.button{
+    background-color: #fff;
+    border: none;  
+    padding: 22px 56px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 16px;
+    font-weight: 400;    
+}
+
+
+.button:hover{
+	opacity: 0.5;
+}
+
+
+.cheesevan img{
+	height: 700px;
+	width: 500px;
+	float: left;
+	object-fit: cover;
+	padding-left: 50px;
+	margin-top: 100px;	
+}
+
+
+.mission img:hover{
+	opacity: 0.7
+}
+
+
+.missiontext{
+	float: right;
+	width: 50%;
+	margin-top: 350px;
+}
+
+
+.missiontext h2{
+	font-weight: 400;
+	font-size: 50px
+}
+
+
+.flex-container{
+	display: flex;
+	justify-content: center;	
+	margin-top: 100px;	
+}
+
+
+.flex-container img{
+	width: 350px;
+	object-fit: contain;
+	padding: 30px;
+}
+
+
+.flex-container img:hover{
+	opacity: 0.7;
+}
+
+
+.flex-container p{
+	
+	line-height: 145%;
+	font-size: 20px;
+	font-weight: 400;
+	padding-top: 25px;
+	width: 350px;
+}
+
+
+.flex-container h4{
+	text-align: center;
+	font-size: 30px;
+	padding-top: 25px;
+	
+}
+
+
+.ourcheese h1{
+	text-align: center;
+	font-size: 50px;
+	font-weight: 400;
+	padding-top: 150px;
+
+}
+
+
+.kitchen img{
+	height: 500px;
+	width: 500px;
+	float: right;
+	object-fit: cover;
+	padding-left: 50px;
+	margin-top: 350px;
+}
+
+
+.kitchen img:hover{
+	opacity: 0.7;
+}
+
+
+.tourstext {
+	float: left;
+	width: 50%;
+	margin-top: 350px;
+	
+}
+
+
+.tourstext h2{
+	font-weight: 400;
+	font-size: 50px
+}
+
+
+.tourstext p{
+	font-weight: 400;
+	line-height: 145%;
+	font-size: 20px;	
+}
+
+
+.footer {
+	width: 100%;
+	color: black;
+	text-align: center;
+	display: inline-block;
+	margin-top: 4%;
+	padding: 20px;
+	margin-bottom: 4%;
+}
+
+
+.footer ul li a{
+	text-decoration: none;
+}
+
+
+.footer li{
+	list-style: none;
+	display: inline-block;
+	padding-top: 5px;
+}
+
+
+.gp, .fb, .tw{
+	font-size: 30px;
+	transition: color 0.5s;
+}
+
+
+:hover.gp{
+	color: #dc4e41;
+}
+
+
+:hover.fb{
+	color: #3b5998;
+}
+
+
+:hover.tw{
+	color: #55acee;
+}
+

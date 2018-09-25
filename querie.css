@@ -1,0 +1,73 @@
+
+
+@media screen and (max-width: 1200px) {
+	body {
+		background-color: red;
+	}
+	
+	
+
+
+}
+
+@media screen and (max-width: 1023px) {
+	body {
+		background-color: yellow;
+	}
+	.hero {
+		text-align: center;
+	}
+	.missiontext{
+		margin-right: 120px;
+		margin-top: 160px;
+
+	}
+
+	.mission img{
+		width: 450px;
+		height: 450px;
+		padding-right: 60px;
+	}
+
+	#navbar li{
+		padding-right: 120px;
+	}
+
+
+}
+
+
+
+
+@media screen and (max-width: 767px)  {
+	body {
+		background-color: blue;
+	}
+
+	#logo{
+		font-size: 20px;
+	}
+
+}
+
+
+
+
+@media screen and (max-width: 480px)  {
+	body {
+		background-color: green;
+	}
+
+	.flex-container{
+		justify-content: column;
+	}
+
+
+}
+
+
+
+
+
+
+
